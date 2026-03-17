@@ -47,13 +47,13 @@ Główna lista filtrów:
 https://raw.githubusercontent.com/rokartur/polish-complete-filters/main/polish-complete-filters.txt
 ```
 
-<!-- ## Szybka instalacja
+## Szybka instalacja
 
 Kliknij poniżej, aby dodać listę automatycznie:
 
-<a href="https://filters.rokartur.com/?auto=1">
+<a href="https://rokartur.github.io/polish-complete-filters/index.html">
   <img src="https://img.shields.io/badge/Dodaj%20do%20adblocka-blue?style=for-the-badge&logo=adblock" alt="Dodaj do adblocka">
-</a> -->
+</a> 
 
 ---
 
