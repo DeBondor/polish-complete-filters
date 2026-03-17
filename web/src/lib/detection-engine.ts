@@ -1,3 +1,5 @@
+import type { MethodTag } from '@/lib/i18n'
+
 /**
  * Ad Blocker Detection Engine v2
  *
@@ -368,7 +370,7 @@ export function getMethodTag(test: {
   url?: string
   baitClass?: string
   baitId?: string
-}): string {
+}): MethodTag {
   if (test.baitClass || test.baitId) return 'cosmetic'
   if (!test.url) return 'network'
   if (isScriptUrl(test.url)) return 'script'

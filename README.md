@@ -51,8 +51,8 @@ https://raw.githubusercontent.com/rokartur/polish-complete-filters/main/polish-c
 
 Kliknij poniżej, aby dodać listę automatycznie:
 
-<a href="https://rokartur.github.io/polish-complete-filters/index.html">
-  <img src="https://img.shields.io/badge/Dodaj%20do%20adblocka-blue?style=for-the-badge&logo=adblock" alt="Dodaj do adblocka">
+<a href="https://rokartur.github.io/polish-complete-filters/">
+  <img src="https://img.shields.io/badge/Dodaj%20do%20adblocka-red?style=for-the-badge&logo=adblock" alt="Dodaj do adblocka">
 </a> 
 
 ---

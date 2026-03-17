@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { useI18n } from '@/lib/i18n'
 import {
   Bell,
   Bug,
@@ -76,6 +77,7 @@ export function TestCategoryList({
   filter,
   getCategoryStats,
 }: TestCategoryListProps) {
+  const { t, translateCategoryName } = useI18n()
   const visibleCategories = categories
     .map((category) => {
       const visibleTests = category.tests
@@ -98,10 +100,10 @@ export function TestCategoryList({
       <div className="w-full rounded-xl border border-border/60 bg-card/70 px-6 py-10 text-center">
         <div className="mx-auto max-w-md">
           <div className="font-display text-xl font-semibold text-foreground">
-            Brak wyników dla tego filtra
+            {t.tester.noResultsTitle}
           </div>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            Zmień filtr albo uruchom testy ponownie, aby zobaczyć pasujące pozycje.
+            {t.tester.noResultsDescription}
           </p>
         </div>
       </div>
@@ -121,28 +123,28 @@ export function TestCategoryList({
             value={category.id}
             className="w-full rounded-xl border border-border/60 bg-card/80 overflow-hidden transition-all duration-200 hover:border-border/80 hover:bg-card"
           >
-            <AccordionTrigger className="px-5 py-4 hover:bg-muted/15 hover:no-underline transition-colors">
-              <div className="flex flex-1 items-center justify-between pr-4">
-                <div className="flex items-center gap-3.5">
+            <AccordionTrigger className="px-4 py-4 hover:bg-muted/15 hover:no-underline transition-colors sm:px-5">
+              <div className="flex flex-1 flex-col gap-3 pr-2 sm:flex-row sm:items-center sm:justify-between sm:pr-4">
+                <div className="flex min-w-0 items-center gap-3 sm:gap-3.5">
                   <span
-                    className={`flex h-10 w-10 items-center justify-center rounded-xl ring-1 transition-colors ${
+                    className={`flex h-11 w-11 min-h-11 min-w-11 shrink-0 items-center justify-center rounded-xl ring-1 transition-colors ${
                       isCategoryFullyBlocked
                         ? 'bg-linear-to-br from-emerald-500/18 to-emerald-500/8 text-emerald-400 ring-emerald-500/20'
                         : 'bg-linear-to-br from-primary/12 to-primary/5 text-primary/70 ring-primary/10'
                     }`}
                   >
-                    <CategoryIcon className="h-4.5 w-4.5" />
+                    <CategoryIcon className="h-[18px] w-[18px] shrink-0" />
                   </span>
-                  <div className="flex flex-col items-start">
-                    <span className="font-semibold text-sm text-foreground font-display">
-                      {category.name}
+                  <div className="flex min-w-0 flex-col items-start">
+                    <span className="font-semibold text-sm text-foreground font-display sm:text-[15px]">
+                      {translateCategoryName(category.id, category.name)}
                     </span>
                     <span className="text-[11px] text-muted-foreground">
-                      {category.tests.length} testów
+                      {t.tester.testsCount(category.tests.length)}
                     </span>
                   </div>
                 </div>
-                <div className="flex items-center gap-5 text-sm">
+                <div className="flex items-center gap-4 pl-14 text-sm sm:pl-0 sm:gap-5">
                   <span className="flex items-center gap-1.5 font-semibold font-mono text-xs">
                     <span className="inline-block h-2 w-2 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400/50" />
                     <span className="text-emerald-400 tabular-nums">{catStats.blocked}</span>

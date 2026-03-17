@@ -1,0 +1,39 @@
+{
+  "name": "Polish Complete Filters Tester",
+  "short_name": "PCF Tester",
+  "description": "Sprawdź, czy uBlock Origin, AdGuard, Brave i inne adblocki blokują reklamy, trackery, malware i popupy.",
+  "id": "/polish-complete-filters/",
+  "lang": "pl",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#04050d",
+  "theme_color": "#04050d",
+  "categories": ["utilities", "security", "productivity", "developer"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./social-card.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "label": "Podgląd testera Polish Complete Filters"
+    }
+  ]
+}

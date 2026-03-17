@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rokartur.github.io/polish-complete-filters/sitemap.xml

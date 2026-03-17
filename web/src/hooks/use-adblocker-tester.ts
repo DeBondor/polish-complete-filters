@@ -14,7 +14,7 @@ export interface TestStats {
 
 export interface GradeInfo {
   grade: string
-  label: string
+  labelKey: 'excellent' | 'veryGood' | 'good' | 'average' | 'weak' | 'none'
   pct: number
   colorClass: string
 }
@@ -49,36 +49,36 @@ function computeGrade(stats: TestStats): GradeInfo | null {
 
   const pct = Math.round((stats.blocked / tested) * 100)
   let grade: string
-  let label: string
+  let labelKey: GradeInfo['labelKey']
   let colorClass: string
 
   if (pct >= 95) {
     grade = 'A+'
-    label = 'Doskonała ochrona!'
+    labelKey = 'excellent'
     colorClass = 'grade-a'
   } else if (pct >= 85) {
     grade = 'A'
-    label = 'Bardzo dobra ochrona'
+    labelKey = 'veryGood'
     colorClass = 'grade-a'
   } else if (pct >= 70) {
     grade = 'B'
-    label = 'Dobra ochrona'
+    labelKey = 'good'
     colorClass = 'grade-b'
   } else if (pct >= 50) {
     grade = 'C'
-    label = 'Przeciętna ochrona'
+    labelKey = 'average'
     colorClass = 'grade-c'
   } else if (pct >= 30) {
     grade = 'D'
-    label = 'Słaba ochrona'
+    labelKey = 'weak'
     colorClass = 'grade-d'
   } else {
     grade = 'F'
-    label = 'Brak ochrony!'
+    labelKey = 'none'
     colorClass = 'grade-f'
   }
 
-  return { grade, label, pct, colorClass }
+  return { grade, labelKey, pct, colorClass }
 }
 
 export function useAdBlockTester() {
