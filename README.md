@@ -104,6 +104,14 @@ Dzięki temu lista filtrów będzie **regularnie aktualizowana bez ręcznej inge
 Projekt korzysta z filtrów oraz reguł pochodzących z publicznych projektów społeczności adblock.
 
 Pełne prawa do tych filtrów należą do ich autorów.
+Projekt korzysta z filtrów oraz reguł pochodzących z publicznych projektów społeczności adblock.
+
+Pełne prawa do tych filtrów należą do ich autorów.
+
+<details>
+<summary><strong>Pokaż listę źródeł filtrów</strong></summary>
+
+<br>
 
 ## Polish Ads Filter — MajkiIT
 
@@ -117,10 +125,10 @@ https://github.com/MajkiIT/polish-ads-filter
 
 Filtry blokujące irytujące elementy stron, takie jak:
 
-* popupy
-* powiadomienia push
-* newslettery
-* widgety
+- popupy
+- powiadomienia push
+- newslettery
+- widgety
 
 https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 
@@ -130,12 +138,14 @@ https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 
 Filtry blokujące:
 
-* phishing
-* fałszywe sklepy
-* scam strony
-* złośliwe domeny
+- phishing
+- fałszywe sklepy
+- scam strony
+- złośliwe domeny
 
 https://github.com/FiltersHeroes/KAD
+
+</details>
 
 ---
 
