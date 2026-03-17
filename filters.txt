@@ -75,3 +75,16 @@ https://filters.adtidy.org/extension/ublock/filters/3.txt
 https://raw.githubusercontent.com/LanikSJ/webannoyances/master/ultralist.txt
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/fake.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/popupads.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nosafesearch.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/dyndns.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/urlshortener.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/anti.piracy.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/gambling.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nsfw.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/social.txt
