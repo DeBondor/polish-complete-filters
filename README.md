@@ -10,7 +10,7 @@ Jeżeli zauważysz problemy z działaniem strony, zgłoś je w **Issues**.
 
 ---
 
-## ℹ️ O projekcie
+## O projekcie
 
 **Polish Complete Filters** to projekt mający na celu utrzymywanie **kompletnej listy filtrów dla adblocków przeznaczonej dla polskiego internetu**.
 
@@ -26,7 +26,7 @@ Projekt jest przeznaczony głównie dla **polskich użytkowników internetu** i 
 
 ---
 
-# 🧩 Obsługiwane adblocki
+# Obsługiwane adblocki
 
 Lista filtrów powinna działać z:
 
@@ -39,7 +39,7 @@ Lista filtrów powinna działać z:
 
 ---
 
-# 📦 Lista filtrów
+# Lista filtrów
 
 Główna lista filtrów:
 
@@ -47,7 +47,7 @@ Główna lista filtrów:
 https://raw.githubusercontent.com/rokartur/polish-complete-filters/main/polish-complete-filters.txt
 ```
 
-## 🚀 Szybka instalacja
+## Szybka instalacja
 
 Kliknij poniżej, aby dodać listę automatycznie:
 
@@ -55,7 +55,7 @@ Kliknij poniżej, aby dodać listę automatycznie:
 
 ---
 
-## 🔧 Instalacja ręczna
+## Instalacja ręczna
 
 1. Otwórz ustawienia swojego adblockera
 2. Przejdź do sekcji **Własne filtry / Custom filters**
@@ -69,7 +69,7 @@ https://raw.githubusercontent.com/rokartur/polish-complete-filters/main/polish-c
 
 ---
 
-# 🎯 Cel projektu
+# Cel projektu
 
 Celem projektu jest stworzenie **jednej kompletnej listy filtrów dla polskiego internetu**, która agreguje wiele istniejących list w jednym miejscu.
 
@@ -82,7 +82,7 @@ Projekt ma na celu:
 
 ---
 
-# 🔄 Automatyczne aktualizacje
+# Automatyczne aktualizacje
 
 Repozytorium jest przygotowywane pod **automatyczne aktualizacje filtrów**.
 
@@ -137,24 +137,16 @@ https://github.com/FiltersHeroes/KAD
 
 ---
 
-# 🐞 Zgłaszanie problemów
+# Zgłaszanie problemów
 
 Jeśli zauważysz:
 
-* reklamy które nie są blokowane
-* błędnie zablokowane elementy strony
 * problemy z działaniem filtrów
 
-utwórz **Issue w repozytorium** i podaj:
-
-* adres strony
-* opis problemu
-* screenshot (jeśli możliwe)
-* używany adblock
 
 ---
 
-# 🤝 Współtworzenie projektu
+# Współtworzenie projektu
 
 Każdy może pomóc rozwijać projekt.
 
