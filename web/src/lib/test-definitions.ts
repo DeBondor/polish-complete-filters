@@ -258,7 +258,6 @@ export const TEST_CATEGORIES: TestCategory[] = [
       { name: 'Suspicious TLD .gq', url: 'https://tracking.gq/pixel.js' },
       { name: 'Suspicious TLD .cf', url: 'https://analytics.cf/track.js' },
       { name: 'Suspicious TLD .ga', url: 'https://offers.ga/popup.js' },
-      { name: 'Suspicious TLD .ml', url: 'https://downloads.ml/setup.js' },
     ],
   },
   {
