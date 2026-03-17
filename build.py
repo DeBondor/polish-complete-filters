@@ -383,6 +383,7 @@ def assemble(
     seen: set[tuple[str, tuple[str, ...]]] = set()
 
     output: list[str] = [
+        "[Adblock Plus 2.0]",
         f"! Title: {TITLE}",
         f"! Description: Combined filter list from upstream sources for uBlock Origin",
         f"! Last modified: {time.strftime('%d %b %Y %H:%M UTC', time.gmtime())}",
