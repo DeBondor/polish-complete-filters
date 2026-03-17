@@ -89,5 +89,4 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/urlshortene
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/anti.piracy.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt
