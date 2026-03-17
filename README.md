@@ -97,7 +97,7 @@ Dzięki temu lista filtrów będzie **regularnie aktualizowana bez ręcznej inge
 
 ---
 
-# 📚 Źródła filtrów (Attribution)
+# Źródła filtrów (Attribution)
 
 Projekt korzysta z filtrów oraz reguł pochodzących z publicznych projektów społeczności adblock.
 
@@ -156,7 +156,7 @@ Każdy może pomóc rozwijać projekt.
 
 ---
 
-# 📜 Licencja
+# Licencja
 
 Projekt działa jako **agregator filtrów**.
 
