@@ -1,0 +1,38 @@
+name: Update filters
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - filters.txt
+      - build.py
+      - .github/workflows/update-filters.yml
+  schedule:
+    - cron: '17 2 * * *'
+ 
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build combined filter list
+        run: python3 build.py
+
+      - name: Commit updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update polish-complete-filters.txt'
+          file_pattern: 'polish-complete-filters.txt'
